@@ -1,1 +1,100 @@
-/* Escribe acá tus estilos*/
+form#formulario {
+margin:auto;
+background: #BDBDBD;
+color: black;
+font-size: 15px;
+padding: 30px;
+width: 450px;
+border:solid 10px LightSteelBlue;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+}
+
+form#formulario fieldset {
+border: none;
+} 
+
+form#formulario input{
+font-size:15px;
+background: white;
+border:solid 1px #BDBDBD;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+float: right;
+margin-right: 15px;
+width: 350px;
+}
+
+form#formulario ol li {
+line-height: 25px;
+list-style: none;
+}
+
+form#formulario [required]{
+border:solid 1px red;
+} 
+
+input:required {
+outline: 1px solid red;
+}
+
+body{
+	font-family: 'Lobster', cursive;
+	color:purple;
+	background-attachment: fixed;
+}
+
+.frase {
+	background-color: rgba(254, 254, 254, 0.7);
+	width: 750px;
+	height: 330px;
+	margin-left: 300px;
+	font-size: 23px;
+	padding: 1%;
+	border-radius: 10px;
+	margin-top: 20px
+	}
+
+.uno {
+	background-color: rgba(254, 254, 254, 0.8);
+	margin-top: 150px;
+	width: 110%;
+	height: 330px;
+	font-size: 23px;
+	padding: 10px;
+	border-radius: 10px;
+	border-style: groove;
+	
+}
+
+header{
+	background-color: rgba(254, 254, 254, 0.5);	
+	width: 180px;
+	height: 130px;
+	margin-left: 50px;
+	border-radius: 20px;
+	position: fixed;
+	margin-top: 1px;
+}
+
+
+.dos {
+	background-color: rgba(254, 254, 254, 0.9);
+	width: 110%;
+	height: 330px;
+	margin-left: -15px;
+	margin-top: 200px;
+	font-size: 23px;
+	padding: 8px;
+	border-radius: 10px;
+	border-style: groove;
+	}
+	
+footer{
+	background: rgba(254, 254, 254, 0.9);
+	
+}
+	
+

@@ -4,43 +4,43 @@
 	<meta charset="UTF-8">
 	<title>Té como señora</title>
 	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 </head>
-<body>
-	<header>
-		<h1>Tetería Té como Señora</h1>
-	</header>
-	<section id="formulario">
+<body background="img/te.jpg" width="1990" height="1500">
+ <section id="formulario">
+	<div class="frase" align="center"><br>
+	<img src="img/logo.png" width="180" height="130"><br>
 		<p>Bienvenid@s a la Tetería Té como Señora. Ofrecemos los mejores tés del mercado a bajos precios, gracias a nuestro sistema de venta online y cajas del mes.</p>
-		<p>Si deseas suscribirte a nuestra caja de té mensual, rellena tus datos en el formulario</p>
-		<form action="">
-			<label for="Nombre Dueño"> Nombre:</label>
-			<input type="text">
-			<label for="Nombre mascota"> Apellido:</label>
-			<input type="text">
-			<label for="Email"> Correo Electrónico:</label> 
-			<input type="email">
-			<label for="Dirección">Dirección: </label>
-			<input type="text">
-			<label for="Teléfono">Teléfono:</label>
-			<input type="text">
+		<p>Si deseas suscribirte a nuestra caja de té mensual, rellena tus datos en el formulario: </p><br>
+	</div><br><br>
+		<form action="" id="formulario" name='formulario' onsubmit='validacion();'>
+			<label for="nombre"> Nombre:</label>
+			<input type="text" id="nombre" name="nombre" required/><br><br>
+			<label for="apellido"> Apellido:</label>
+			<input type="text" id="apellido" name="apellido" required/><br><br>
+			<label for="email"> Correo Electrónico:</label> 
+			<input type="email" id="email" name="email" required/><br><br>
+			<label for="direccion">Dirección: </label>
+			<input type="text" id="direccion" name="direccion" required/><br><br>
+			<label for="telefono">Teléfono:</label>
+			<input type="number" id="telefono" name="telefono" required/><br><br><br>
 			<label for="">Selecciona un pack:</label>
-			<select name="" id="">
+			<select name="" id=""><br><br><br>
 				<option value="">Escoje tu opción</option>
 				<option value="">Pack de té clásico (Té negro)</option>
 				<option value="">Pack frutales (Hierbas y té con aromatizado con fruta</option>
-				<option value="">Pack variedades (Té verde, rojo y blanco)</option>
-			</select>
-			<label for=""></label>
-			<input type="checkbox"> Recibe nuestro newsletter mensual con actividades y sorteos
-			<button type="submit" form="form1" value="Submit" onclick="mostrarData()">Enviar</button>
+				<option value="">Pack variedades (Té verde, rojo y blanco)</option><br>
+			</select><br>
+			<div>
+			<input type="checkbox">
+			<label for="">Recibe nuestro newsletter mensual con actividades y sorteos</label></div>
+			<button type="submit" value="Submit" id="acepto" onClick="index2.html" target="_blank">Enviar</button><br><br>
+			<a href="index2.html" target="_blank">Si no quieres recibir newsletter presiona aquí</a>
+
 		</form>
 	</section>
-	<section id="clientes">
-		<!-- Acá van los datos de ingresados por los clientes -->
-	</section>
-	<section id="productos">
-		<!-- Acá puedes crear lo que quieras-->
-	</section>
+	
+	
 	<script src="js/main.js"></script>
 </body>
 </html>
